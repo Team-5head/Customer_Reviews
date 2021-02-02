@@ -1,0 +1,131 @@
+.main {
+  /* display: flex;
+  position: relative; */
+  /* margin: -1px 0 0;
+  padding: 1rem .5rem; */
+  line-height: 1.333;
+  font-weight: 600;
+  letter-spacing: -.16px;
+  color: #292929!important;
+  font-size: 16px!important;
+  font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif!important;
+  font-style: normal!important;
+  font-weight: 400!important;
+  font-variant: normal!important;
+  text-decoration: none!important;
+  text-transform: none!important;
+}
+
+.flexsnapshot {
+  display: flex;
+  flex-direction: column;
+  /* flex: 4; */
+
+  /* border-right: solid; */
+}
+
+.rating-snapshot {
+  flex: 3;
+  line-height: 50px;
+  padding-top: 0px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  /* background-color: green; */
+  letter-spacing: -.16px;
+}
+/*
+.ratingsSnapshot {
+  flex: 1;
+  line-height: 0px;
+  background-color: grey;
+} */
+
+.selectRow {
+  flex: 1;
+  line-height: 0px;
+}
+
+.starsContainer {
+  display: grid;
+  grid-template-columns: 11% 55%;
+  grid-column-gap: 1em;
+  line-height: 18px;
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  align-items: center;
+  min-width: 100px;
+  /* background-color: blue; */
+}
+
+.fiveFilter {
+  border-right: solid;
+}
+
+.fiveContainer {
+  width: 100%;
+  background: rgb(225,225,225);
+  background: linear-gradient(0deg, rgba(225,225,225,1) 0%, rgba(248,248,248,1) 42%, rgba(245,245,245,1) 80%, rgba(225,225,225,1) 100%);
+  height: 8%;
+  border-radius: 2px;
+  padding-top: 10x;
+  padding-bottom: 10px;
+  min-width: 80%;
+}
+
+
+.fiveBar {
+  padding-top: 1px;
+  padding-bottom: 10px;
+  width: 8%;
+  background: rgb(10,83,65);
+  background: linear-gradient(0deg, rgba(10,83,65,1) 0%, rgba(45,126,106,1) 49%);
+  height: 11%;
+  border-radius: 2px;
+}
+
+.filter-container {
+  display: flex;
+  color: #292929!important;
+  font-size: 16px!important;
+  font-family: "Roboto","Helvetica Neue","Helvetica","Arial",sans-serif!important;
+  font-style: normal!important;
+  font-weight: 400!important;
+  font-variant: normal!important;
+  text-decoration: none!important;
+  text-transform: none!important;
+  /* background-color: red; */
+}
+
+.filter {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  line-height: 15px;
+  padding-bottom: 15px;
+  padding-top: 30px;
+  padding-left: 10px;
+}
+
+.sort {
+  display: flex;
+  justify-content: flex-end;
+  flex: 3;
+}
+
+/* the .averageRatings section gets its own flexbox so that it aligns to the right of the first section */
+.flexoutter {
+  display: flex;
+  flex-direction: row;
+}
+
+.snapshot-star-filters {
+  flex: 2
+}
+
+.averageRatings {
+  /* background-color: purple; */
+  /* display: flex; */
+  justify-content: flex-start;
+  flex: 3;
+}
